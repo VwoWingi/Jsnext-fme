@@ -23,6 +23,8 @@ import Modal from '../components/Modal';
 import SearchForm from '../components/SearchForm';
 import ResponseDisplay from '../components/ResponseDisplay';
 
+export const runtime = 'edge';
+
 interface VWOLog {
   level: string;
   message: string;
